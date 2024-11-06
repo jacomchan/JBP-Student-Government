@@ -141,3 +141,20 @@ input{
     justify-content: center;
     flex-direction: column;
 }
+
+.website-body-team {
+    padding: 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.website-body-team-box img{
+    border-radius: 100%;
+    background-image: url(../assets/images/Background2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
