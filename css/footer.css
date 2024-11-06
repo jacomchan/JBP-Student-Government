@@ -1,0 +1,36 @@
+.website-footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.website-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.website-footer a:hover {
+    text-decoration: underline;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.website-footer img {
+    height: 100px;
+    width: 100px;
+}
+
+.website-footer-box {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+    padding-top: 12px;
+}

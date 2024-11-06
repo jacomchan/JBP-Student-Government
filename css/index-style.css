@@ -1,0 +1,143 @@
+@font-face {
+    font-family: LexendRegular;
+    src: url(../assets/fonts/Lexend-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+    scroll-behavior: smooth;
+}  
+
+@media (max-width: 600px) {
+    .website-body-info2 {
+        flex-direction: column;
+    }
+
+    .website-body-info4 {
+        align-content: center;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .ad-image {
+        width: 365px;
+    }
+
+    .ad-image-skyscraper {
+       visibility: hidden;
+    }
+}
+
+* {
+    font-family: LexendRegular;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.button {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 0.25em;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.button:hover {
+    transition: 0.15s ease-in-out;
+    text-decoration: underline;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#button {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 0.25em;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+#button:hover {
+    transition: 0.15s ease-in-out;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#button-open {
+    color: white;
+    border-color: #00b06f;
+    background-color: #00b06f;
+}
+
+#button-error {
+    color: white;
+    border-color: #f7a94b;
+    background-color: #f7a94b;
+}
+
+#button-closed {
+    color: white;
+    border-color: #f74b52;
+    background-color: #f74b52;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px 2.5%;
+    text-decoration: dashed;
+}
+
+input{
+    border-radius: 0.25em;
+    border: 2px solid;
+    border-color: black;
+    height: 30px;
+    padding: 5px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid black;
+    border-radius: 50%;
+    border-bottom: 4px solid white;
+    animation: spin 1s linear 0s infinite normal none;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.website-body-welcome {
+    background-image: url(../assets/images/Background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 86%;
+    display: flex;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
