@@ -24,6 +24,7 @@
 .website-footer img {
     height: 100px;
     width: 100px;
+    border-radius: 0.25em;
 }
 
 .website-footer-box {
