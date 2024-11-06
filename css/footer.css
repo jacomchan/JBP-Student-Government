@@ -4,6 +4,7 @@
     padding: 30px;
     text-align: center;
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
@@ -22,7 +23,7 @@
 }
 
 .website-footer img {
-    height: 100px;
+    height: 200px;
     width: 100px;
     border-radius: 0.25em;
 }
