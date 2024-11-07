@@ -48,7 +48,7 @@
 
 .button {
     border: 2px solid;
-    border-color: black;
+    border-color: #006;
     border-radius: 0.25em;
     text-decoration: none;
     padding: 5px;
@@ -60,7 +60,7 @@
     transition: 0.15s ease-in-out;
     text-decoration: underline;
     padding: 10px;
-    background-color: black;
+    background-color: #006;
     cursor: pointer;
 }
 
