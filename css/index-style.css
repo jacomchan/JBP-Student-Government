@@ -51,7 +51,6 @@
     border-color: black;
     border-radius: 0.25em;
     text-decoration: none;
-    background-color: black;
     padding: 5px;
     margin: 5px;
     color: white;
@@ -61,6 +60,7 @@
     transition: 0.15s ease-in-out;
     text-decoration: underline;
     padding: 10px;
+    background-color: black;
     cursor: pointer;
 }
 
